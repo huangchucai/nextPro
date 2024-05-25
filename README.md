@@ -27,3 +27,6 @@ shadcn-ui : https://ui.shadcn.com/  ->  https://ui.shadcn.com/docs/installation/
 
 ### 拖拽操作
 react-dropzone https://react-dropzone.js.org/
+
+### 文件上传
+uploadthing https://uploadthing.com/  https://docs.uploadthing.com/getting-started/appdir
