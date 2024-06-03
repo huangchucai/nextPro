@@ -1,6 +1,8 @@
 'use client'
 import { usePathname } from 'next/navigation'
 import { cn } from '@/lib/utils'
+import { twMerge } from 'tailwind-merge'
+import { clsx } from 'clsx'
 
 const STEPS = [
   {
@@ -19,6 +21,13 @@ const STEPS = [
     url: '/preview',
   },
 ]
+console.log("hcc:🚀 ~ f:Steps m: l:22->",cn(
+    'flex h-20 w-20 object-contain items-center justify-center',
+    {
+      'border-none': true,
+      'border-zinc-700': true,
+    }
+))
 
 function Steps() {
   const pathname = usePathname()
@@ -89,7 +98,6 @@ function Steps() {
                       </svg>
                     </div>
                 ) : null}
-
               </div>
             </li>
           })

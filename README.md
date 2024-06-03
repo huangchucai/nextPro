@@ -30,3 +30,9 @@ react-dropzone https://react-dropzone.js.org/
 
 ### 文件上传
 uploadthing https://uploadthing.com/  https://docs.uploadthing.com/getting-started/appdir
+
+### 远程数据库
+https://console.neon.tech/
+
+### 图片处理的库sharp
+sharp https://www.npmjs.com/package/sharp
